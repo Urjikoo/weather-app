@@ -5,10 +5,9 @@
     "node": "^17.1.0"
     
   }
+  
 }
 
-{
-  "scripts": {
-    "start": "node index.js"
-  }
-}
+
+
+ 
