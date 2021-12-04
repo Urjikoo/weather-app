@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("cloudy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#content {
+  height: 150px;
+  border-radius: 2%;
+  width: 40%;
+  margin: 20px 100px;
+  /* background-color: rgb(219, 232, 245); */
+  opacity: 0.8;
+}
+h1 {
+  font-family: "Bubblegum Sans", cursive;
+  color: rgb(255, 255, 255);
+  margin: 30px 40px;
+  font-size: 40px;
+  text-decoration: underline;
+  text-shadow: 2px 2px rgb(230, 18, 205);
+}
+
+.input_box {
+  height: 100px;
+  width: 100%;
+  margin: 13px;
+  border-radius: 6px;
+}
+input,
+button {
+  height: 30px;
+  width: 180px;
+}
+#output {
+  color: rgb(238, 231, 231);
+  font-size: 30px;
+  font-family: "Courgette", cursive;
+}
+h1 {
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(-35deg);
+  }
+  5% {
+    transform: skewX(55deg);
+  }
+  10% {
+    transform: skewX(-15deg);
+  }
+  15% {
+    transform: skewX(15deg);
+  }
+  50% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
